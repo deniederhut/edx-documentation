@@ -14,7 +14,10 @@ January-March 2015
 
    * - Date
      - Change
-   * - 1/16/15
+   * - 30 Jan 2015
+     - Added information about library events for students in cohorts to the
+       :ref:`Tracking Logs` chapter.
+   * - 16 Jan 2015
      - Added the :ref:`Institution_Data` chapter with information about the
        CSV file of student email preference settings.
 

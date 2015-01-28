@@ -2789,6 +2789,81 @@ event.
      - integer
      - The numeric ID (from ``auth_user.id``) of the removed user.
 
+
+``edx.librarycontentblock.content.assigned``
+********************************************
+
+Course teams use libraries to identify course content that is intended only
+for the students in a specific cohort. When a student first views content from
+a library, the server emits an ``edx.librarycontentblock.content.assigned``
+event.
+
+**Event Source**: Server
+
+**History** Added 28 Jan 2014.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``added``
+     - dict
+     - Identifies the content of the library ``descendants``, ``original_usage_key``, ``original_usage_version`` and ``usage_key``. The ``descendants`` field can also include ``original_usage_key``, ``original_usage_version`` and ``usage_key``.
+   * - ``location``
+     - string
+     - 
+   * - ``max_count``
+     - integer
+     - 
+     - ``previous_count``
+   * - ``result``
+     - dict
+     - 
+
+
+       
+``edx.librarycontentblock.content.removed``
+*******************************************
+
+If the cohort assignment a student 
+
+**Event Source**: Server
+
+**History** Added 28 Jan 2014.
+
+``event`` **Member Fields**:
+
+.. list-table::
+   :widths: 15 15 60
+   :header-rows: 1
+
+   * - Field
+     - Type
+     - Details
+   * - ``location``
+     - string
+     - 
+   * - ``max_count``
+     - integer
+     - 
+     - ``previous_count``
+   * - ``result``
+     - dict
+     - Identifies the content of the library
+   * - ``reason``
+     - string
+     - 'overlimit'
+   * - ``removed``
+     - dict
+     - Identifies the content of the library 
+       
+
+
 .. _ora:
 
 ============================================
