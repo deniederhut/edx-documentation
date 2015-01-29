@@ -2799,7 +2799,11 @@ Instructor Dashboard, the server emits an ``edx.cohort.user_removed`` event.
 ********************************************
 
 Course teams use libraries to identify course content that is intended only
-for the students in a specific cohort. The first time that the content from a
+for the students in a specific cohort. Libraries are created separately from
+courses, and then referenced by the components in one or more courses, and
+associated with a cohort in each course.
+
+The first time that the content from a
 library is delivered to a student in the associated cohort, the server emits
 an ``edx.librarycontentblock.content.assigned`` event. If a course team member
 changes the content of a library after it is delivered, the server emits an
@@ -2807,7 +2811,7 @@ additional ``edx.librarycontentblock.content.assigned`` event.
 
 **Event Source**: Server
 
-**History** Added 28 Jan 2014.
+**History** Added **** 2014.
 
 ``event`` **Member Fields**:
 
@@ -2849,7 +2853,7 @@ not resynchronize course content to library content after a course starts.
 
 **Event Source**: Server
 
-**History** Added 28 Jan 2014.
+**History** Added **** 2014.
 
 ``event`` **Member Fields**:
 
