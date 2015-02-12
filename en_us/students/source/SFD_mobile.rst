@@ -43,7 +43,7 @@ When you open the app and sign in to your edX account, you see a list of the
 mobile-friendly courses you're currently enrolled in.
 
 To find a new course, scroll to the end of the list of your courses, and then
-tap **Find a mobile-friendly course**.
+tap **Find a mobile-friendly course**. To enroll in a course, click ****.
 
 Currently, only select courses are offered on the edX mobile app. We're working
 hard to make all edX courses mobile-friendly and we're adding more mobile
@@ -53,11 +53,11 @@ courses every day, so check back soon to see new available courses.
 Can I take a course entirely on my mobile device?
 ========================================================
 
-This version of our mobile app is a companion app that you can use to watch
-course videos and see announcements and handouts. To complete readings, homework
-problems, and exams, you can tap **View on Web** in the bottom right corner of
-any screen to access the content in your browser, or you can complete
-assignments on your computer.
+With this version of our mobile app, you can download course videos to watch
+when you do not have an Internet connection, and read course announcements and
+handouts. To complete other readings, homework problems, and exams, tap **View
+on Web** in the bottom right corner of any screen to access the content in
+your smartphone's browser. You can also complete assignments on your computer.
 
 ========================================================
 How do I post questions on the discussion board?
