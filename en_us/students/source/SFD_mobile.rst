@@ -24,30 +24,48 @@ available in the Apple `App Store`_.
 How much does the app cost?
 ================================
 
-The app is free. You don't have to pay or buy anything to download or use it.
+The app is free. You do not have to pay or buy anything to download or use it.
 
 ========================================
 What platforms does the app run on?
 ========================================
 
-Our current app is available for Android smartphones and iPhones. We're also
-working to make the app available on Android tablets and iPads.
+Our current app is available for Android smartphones and iPhones. We plan to
+make the app available on Android tablets and iPads in the future.
 
 For the iPhone app, your device must be running iOS 7 or later.
 
-================================================
-How do I find courses to take on the mobile app?
-================================================
+======================================
+What if I do not have an edX account?
+======================================
+
+When you open the edX mobile app, click **Sign up and start learning**. To set
+up your edX account, you must supply the following information.
+
+* Your email address. 
+* Your name.
+* The username that will identify you to faculty and other learners.
+* A password.
+* Your country. 
+
+After you create your account, a message with a link for you to activate your
+account is sent to your email address. Click that link to complete your
+account set up.
+
+==================================================
+How do I find courses to take with the mobile app?
+==================================================
 
 When you open the app and sign in to your edX account, you see a list of the
-mobile-friendly courses you're currently enrolled in.
+mobile-friendly courses that you are currently enrolled in.
 
 To find a new course, scroll to the end of the list of your courses, and then
-tap **Find a mobile-friendly course**. To enroll in a course, click ****.
+tap **Find a mobile-friendly course**. To sign up for a course, click
+**Enroll**.
 
-Currently, only select courses are offered on the edX mobile app. We're working
-hard to make all edX courses mobile-friendly and we're adding more mobile
-courses every day, so check back soon to see new available courses.
+Only select courses are offered on the edX mobile app right now. We are
+working hard to make all edX courses mobile-friendly and we are adding more
+mobile courses every day, so check back soon to see new available courses.
 
 ========================================================
 Can I take a course entirely on my mobile device?
@@ -56,17 +74,17 @@ Can I take a course entirely on my mobile device?
 With this version of our mobile app, you can download course videos to watch
 when you do not have an Internet connection, and read course announcements and
 handouts. To complete other readings, homework problems, and exams, tap **View
-on Web** in the bottom right corner of any screen to access the content in
-your smartphone's browser. You can also complete assignments on your computer.
+on Web** in the bottom right corner of any screen to open that content in your
+smartphone's browser. You can also complete assignments on a desktop computer.
 
 ========================================================
 How do I post questions on the discussion board?
 ========================================================
 
-Right now, you can't participate in discussions by using the app. However, when
-you tap **View on Web** in the bottom right corner of any screen, the course
-opens in your browser. You can then tap the **Discussion** tab in your course to
-participate in discussions.
+Right now, you cannot participate in discussions by using the app. However,
+when you tap **View on Web** in the bottom right corner of any screen, the
+course opens in your smartphone's browser. You can then tap the course
+**Discussion** tab to participate in discussions.
 
 ========================================
 How do I change my download settings?
