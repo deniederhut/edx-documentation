@@ -572,8 +572,7 @@ field.
 **Component**: Video
 
 **History**: The edX mobile app began to emit video events on 23 Dec 14. The
-mobile app emits ``play_video``, ``pause_video``, ``stop_video``,
-``load_video``, ``hide_transcript``, and ``show_transcript`` events only.
+mobile app does not emit ``speed_change_video`` events.
 
 
 ``play_video``, ``pause_video``, ``stop_video``
@@ -582,9 +581,13 @@ mobile app emits ``play_video``, ``pause_video``, ``stop_video``,
 * When a user clicks the video player's **play** control, the player emits a
   ``play_video`` event.
 
+  .. spacing only
+
 * When a user clicks the video player's **pause** control, the player emits a
   ``pause_video`` event. The player also emits this event when it reaches the
   end of the video file and play automatically stops.
+
+  .. spacing only
 
 * When the video player reaches the end of the video file and play
   automatically stops, the player emits a ``stop_video`` event.
@@ -784,10 +787,14 @@ Example: Mobile App-Emitted ``edx.video.played`` Event
 A browser emits ``seek_video`` events when a user clicks the
 playback bar or transcript to go to a different point in the video file.
 
-**Event Source**: Browser
+In addition to the value ``seek_video`` in the ``event_type`` field, the
+events that the edX mobile app emits include the value
+``edx.video.position.changed`` in the ``name`` field.
 
-**History**: Prior to 25 Jun 2014, the ``old_time`` and ``new_time`` were set
-to the same value. 
+**Event Source**: Browser or Mobile
+
+**History**: Updated 10 Feb 2015 to include edX mobile app events. Prior to 25
+Jun 2014, the ``old_time`` and ``new_time`` were set to the same value.
 
 ``event`` **Member Fields**: 
 
