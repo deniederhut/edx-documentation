@@ -186,21 +186,21 @@ following:
 
 The following problem templates open in the Simple Editor.
 
-*  :ref:`Checkbox` In checkbox problems, students select one or more options
+*  :ref:`Checkbox`: In checkbox problems, students select one or more options
    from a list of possible answers.
 
-*  :ref:`Dropdown` In dropdown problems, students select one answer from a
+*  :ref:`Dropdown`: In dropdown problems, students select one answer from a
    dropdown list.
 
-*  :ref:`Multiple Choice` Multiple choice problems require students to
+*  :ref:`Multiple Choice`: Multiple choice problems require students to
    select one answer from a list of choices that appear directly below
    the question.
 
-*  :ref:`Numerical Input` Numerical input problems require answers that
+*  :ref:`Numerical Input`: Numerical input problems require answers that
    include only integers, fractions, and a few common constants and
    operators.
 
-*  :ref:`Text Input` In text input problems, students enter a short text
+*  :ref:`Text Input`: In text input problems, students enter a short text
    answer to a question.
 
 
@@ -318,7 +318,7 @@ problem. The problem weight appears next to the problem title.
  :alt: Image of a problem from a student's point of view, with the possible 
        points circled
 
-By default, each response field, or "answer space, in a Problem
+By default, each response field, or "answer space", in a Problem
 component is worth one point. Any Problem component can have multiple
 response fields. For example, the Problem component above
 contains one dropdown problem that has three separate questions for students
