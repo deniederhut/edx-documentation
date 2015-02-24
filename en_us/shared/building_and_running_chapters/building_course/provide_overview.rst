@@ -243,9 +243,9 @@ until they pass the exam.
   :alt: The Course Updates & News page with the Entrance Exam tab circled on the
       left
 
-
-After students pass the exam, they can access all released materials in your 
-course. 
+As students work through the entrance exam, they can see their status at the top of
+the page. After students pass the exam, they can access all released materials
+in your course.
 
 To require an entrance exam, follow these steps.
 
@@ -273,6 +273,8 @@ students have a positive experience with entrance exams.
   course About page. Otherwise, students will not know about the entrance exam
   before they enroll in your course and try to access course content.
 
+.. Is the following still true?
+
 * Add an anouncement at the top of the **Course Updates & News** page that
   contains information and instructions for students who need to take the exam.
   When students first try to access content in a course that has an entrance
@@ -299,31 +301,49 @@ You create your course entrance exam from the course outline in Studio. Creating
 entrance exam content is just like creating other course content. For more
 information, see :ref:`Creating Course Content Index`.
 
-Adjust Scores in the Entrance Exam
+Allow a Student to Skip the Entrance Exam
+**************************************************
+
+You can allow a student to skip the entrance exam. To do this, you need the
+student's edX username or the email address that is associated with the
+student's edX account.
+
+#. On the Instructor Dashboard, click **Student Admin**, and then scroll to the
+   **Entrance Exam Adjustment** section.
+#. Enter the student's information in the **Student's edX email address or
+   username** field.
+#. Under **Select an action for the student's entrance exam**, select
+   **Let Student Skip Entrance Exam**.
+
+
+Adjust a Student's Entrance Exam
 ********************************************
 
 If you find an error in the exam after students have taken it, and corrections
 to the exam are unavoidable, you have several options to rescore the exam for
 individual students. These options are available on the Instructor Dashboard.
 
+.. note:: You can only make exam adjustments for one student at a time.
+
 On the Instructor Dashboard, click **Student Admin**, and then scroll to the
 **Entrance Exam Grade Adjustment** section. The following options are available.
 
-* **Reset Student Attempts**: Reset the value for one particular student's
-  attempts back to zero so that the student can begin work over again. For more
-  information, see :ref:`reset_attempts`.
+* **Reset Student Attempts**: Reset the number of attempts made for all problems
+  in one student's exam to zero so that the student can begin work over again.
+  For more information, see :ref:`reset_attempts`.
 
 * **Rescore Student Submission**: Rescore the responses that a student has
   submitted. For more information, see :ref:`rescore`.
 
-* **Delete Student State for Problem**: Delete a student's entire history for
-  the exam from the database. For more information, see :ref:`delete_state`.
+* **Delete Student's Answers and Scores**: Delete all of the student's answers
+  and scores for the entire entrance exam. For more information, see
+  :ref:`delete_state`.
 
 Another option on the Instructor Dashboard is **Show Background Task History for
 Student**. If you reset student attempts, rescore student submissions, or delete
-student state, the operation runs in the background. If you want to see a record
-of all the operations that have run for the entrance exam, select **Show
-Background Task History for Student**.
+a student's answers and scores, the adjustment runs in the background while you
+perform other tasks. If you want to see a record of all the adjustments that have
+run for the entrance exam, select **Show Student's Exam Adjustment History**.
 
 
 
