@@ -595,7 +595,7 @@ problems can be different types.
 To create multiple problems in one component, create a new Blank Advanced
 Problem component, and then add the XML for each problem in the component
 editor. You only need to include the XML for the problem and its answers. You
-don't have to include the code for other elements, such as the **Check**
+do not have to include the code for other elements, such as the **Check**
 button.
 
 Elements such as the **Check**, **Show Answer**, and **Reset** buttons, as well
