@@ -43,7 +43,7 @@ configuration steps (as applicable).
     some configuration tasks only if you want :ref:`content-specific discussion
     topics to be unified<Make ContentSpecific Discussion Topics Unified>`.
 
-You complete these procedures on the **Cohort Management** tab on the Instructor Dashboard. 
+You complete these procedures on the **Cohorts** tab on the Instructor Dashboard. 
 
 For an optimal student experience, you should make sure that configuration of
 the cohort feature is as complete as possible prior to the start date of your
@@ -97,7 +97,7 @@ Enabling Cohorts in your Course
 
 To enable cohorts in your course, follow these steps.
 
-#. In the LMS, select **Instructor**, then select **Cohort Management**. 
+#. In the LMS, select **Instructor**, then select **Cohorts**. 
 
 #. Select **Enable Cohorts**.
    
@@ -113,7 +113,7 @@ Adding Cohorts
 
 After you enable the cohorts feature for your course, you can add cohorts.
 
-#. In the LMS, select **Instructor**, then select **Cohort Management**.
+#. In the LMS, select **Instructor**, then select **Cohorts**.
 
 #. Click **Add Cohort**.
 
@@ -204,7 +204,7 @@ Assign Students to Cohorts by Uploading a .csv File
 ========================================================
 
 In addition to assigning students to cohorts by entering usernames or email
-addresses directly on the Cohort Management page in the Instructor Dashboard,
+addresses directly on the Cohorts page in the Instructor Dashboard,
 you can also upload a .csv file containing a list of students and the cohorts
 that you want to assign them to.
 
@@ -279,7 +279,7 @@ Follow these steps to assign students to cohorts by uploading a .csv file.
 #. View the live version of your course. For example, in Studio, click **View
    Live**.
 
-#. Click **Instructor**, then click **Cohort Management**. 
+#. Click **Instructor**, then click **Cohorts**. 
 
 #. In the dropdown list of cohorts, select the cohort to which you are adding
    students.
@@ -386,7 +386,7 @@ posts have "disappeared".
 To verify the cohort assignments for your students, download the  :ref:`student
 profile report<View and download student data>` for your course. If changes are
 needed, you can :ref:`assign students<Assign Students to Cohorts Manually>` to
-different cohorts manually on the **Cohort Management** page of the Instructor
+different cohorts manually on the Cohorts page of the Instructor
 Dashboard, or :ref:`upload cohort assignment changes<Assign Students to Cohort
 Groups by uploading CSV>` in a .csv file.
 
@@ -405,7 +405,7 @@ To rename a cohort, follow these steps.
 #. View the live version of your course. For example, in Studio click **View
    Live**.
 
-#. Click **Instructor**, then click **Cohort Management**. 
+#. Click **Instructor**, then click **Cohorts**. 
 
 #. From the drop down list, select the cohort whose name you want to change.
 
@@ -459,7 +459,7 @@ To change the assignment method of a cohort, follow these steps.
 #. View the live version of your course. For example, in Studio click **View
    Live**.
 
-#. Click **Instructor**, then click **Cohort Management**. 
+#. Click **Instructor**, then click **Cohorts**. 
 
 #. From the drop down list, select the cohort whose assignment method you want
    to change.
@@ -488,7 +488,7 @@ Disable the Cohort Feature
 
 To disable cohorts in your course, follow these steps.
 
-#. In the LMS, select **Instructor**, then select **Cohort Management**. 
+#. In the LMS, select **Instructor**, then select **Cohorts**. 
 
 #. Clear the **Enable Cohorts** option.
    
