@@ -470,8 +470,7 @@ To change the assignment method of a cohort, follow these steps.
 
 #. Click **Save**. 
 
-   The cohort assignment method is updated. When you refresh the page, the new
-   cohort assignment method for the cohort is selected.
+   The cohort assignment method is updated. 
 
 .. note:: Changing the cohort assignment method has no effect on students who
    are already assigned to this and other cohorts in your course. Students who
