@@ -67,8 +67,6 @@ about naming conventions, see :ref:`Apply Naming Conventions to Discussion
 Topics`.
 
 
-
-
 .. _Specify Whether CourseWide Discussion Topics are Cohorted:
 
 ===================================================================
@@ -111,9 +109,12 @@ cohort cannot read or add to the posts, responses, or comments contributed
 by the members of another cohort.
 
 If you want all content-specific discussion topics in your course to remain
-divided by cohort, you do not need to take any further action. However, if
-you want one or more content-specific discussion topics to be unified
-(accessible to all students regardless of cohort), you can change the setting for those discussion topics. For step-by-step instructions for specifying whether a content-specific discussion topic is unified or divided by cohort, see :ref:
+divided by cohort, you do not need to take any further action. However, if you
+want one or more content-specific discussion topics to be unified (accessible to
+all students regardless of cohort), you can change the setting for those
+discussion topics. For step-by-step instructions for specifying whether a
+content-specific discussion topic is unified or divided by cohort, see
+:ref:`Specify Whether ContentSpecific Discussion Topics are Cohorted`.
 
 
 .. _Specify Whether ContentSpecific Discussion Topics are Cohorted:
@@ -122,20 +123,27 @@ you want one or more content-specific discussion topics to be unified
 Specify Whether Content-Specific Discussion Topics are Divided by Cohort
 =========================================================================
 
-.. note:: If you want all content-specific discussion topics in your course to
-   be divided by cohort, you do not need to take any action. 
-
 When you create content-specific discussion topics, the default setting is that
 they are all unified, and all learners in your course can access them. To change
 whether a course-wide discussion topic is divided by cohort, follow these steps.
+
+.. note:: The **Always cohort content-specific discussion topics** setting
+   overrides any existing setting that specifies that a content-specific
+   discussion topic is unified. If the **Always cohort content-specific
+   discussion topics** option is selected, the list of discussion topics is not
+   editable, and all content-specific discussion topics are divided by cohort,
+   regardless of the state that is displayed in the list.
 
 #. In the LMS, select **Instructor**, then select **Cohorts**. 
 
 #. Click **Specify whether discussion topics are divided by cohort**. 
    
-#. In the **Content-Specific Discussion Topics** section, select **Cohort some content-specific discussion topics**. 
+#. In the **Content-Specific Discussion Topics** section, select **Cohort some
+   content-specific discussion topics**.
 
     The list of content-specific discussion topics becomes editable. 
+
+
    
 #. Select the checkbox next to each content-specific discussion topic that you
    want to divide by cohort. Clear the checkbox next to each content-specific
