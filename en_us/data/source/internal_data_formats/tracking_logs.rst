@@ -557,9 +557,9 @@ Video Interaction Events
 A browser or the edX mobile app emits these events when a user interacts with
 a video. When users use a browser to stream video files, the browser emits the
 events. When users use the edX mobile app to download course videos for
-offline viewing on a mobile device, the mobile app emits the events.
+off line viewing on a mobile device, the mobile app emits the events.
 
-When a user interacts with a video file offline using the edX mobile app, note
+When a user interacts with a video file off line using the edX mobile app, note
 that the app can only forward its events during the next connection
 opportunity. As a result, the date and time in the event's ``time`` field can
 be different from the date and time in the ``context.received_at`` field. Data
@@ -571,9 +571,9 @@ field.
 
 **Component**: Video
 
-**History**: The edX mobile app began to emit video events on 23 Dec 14. The
-mobile app does not emit ``speed_change_video`` events.
+**History**: The edX mobile app for Android began to emit video events on 23 Dec 14. 
 
+.. _play_video:
 
 ``play_video``, ``pause_video``, ``stop_video``
 *************************************************
@@ -601,7 +601,9 @@ values, respectively: ``edx.video.played``, ``edx.video.paused``, and
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include edX mobile app events.
+**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android. Updated nn Mar 2015 to include events emitted by the edX
+mobile app for iOS.
 
 ``context`` **Member Fields**: Only events that the edX mobile app emits
 include these ``context`` member fields. See :ref:`Example Mobile App
@@ -615,11 +617,11 @@ Event`.
      - Type
      - Details and Member Fields
    * - ``application``
-     - dict
+     - dictionary
      - Includes ``name`` and ``version`` member fields to identify the edX
        mobile app. 
    * - ``client``
-     - dict
+     - dictionary
      - Includes member dictionaries and fields with device-specific data.
 
        The ``client`` data is gathered by the event collection library, which
@@ -784,8 +786,9 @@ Example: Mobile App-Emitted ``edx.video.played`` Event
 ``seek_video``
 **************
 
-A browser emits ``seek_video`` events when a user clicks the
-playback bar or transcript to go to a different point in the video file.
+A browser emits ``seek_video`` events when a user uses the playback bar or
+back 30 seconds button, or clicks in a transcript, to go to a different point
+in the video file.
 
 In addition to the value ``seek_video`` in the ``event_type`` field, the
 events that the edX mobile app emits include the value
@@ -793,8 +796,13 @@ events that the edX mobile app emits include the value
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 10 Feb 2015 to include edX mobile app events. Prior to 25
-Jun 2014, the ``old_time`` and ``new_time`` were set to the same value.
+**History**: Updated nn Mar 2015 to include events emitted by the edX mobile
+app. Prior to 25 Jun 2014, the ``old_time`` and ``new_time`` were set to the
+same value.
+
+``context`` **Member Fields**: Only events emitted by the edX mobile app
+include additional ``context`` member fields. The same set of additional
+context fields are added for these events as for :ref:`play_video`.
 
 ``event`` **Member Fields**: 
 
@@ -811,6 +819,8 @@ Jun 2014, the ``old_time`` and ``new_time`` were set to the same value.
        loaded (for example, OEyXaRPEzfM).
 
        For non-YouTube videos played in a browser, 'html5'.
+
+       For videos played by the edX mobile app, 'mobile'.
 
    * - ``id``
      - string
@@ -836,6 +846,23 @@ Jun 2014, the ``old_time`` and ``new_time`` were set to the same value.
      - integer
      - The time in the video, in seconds, at which the user chose to go to a
        different point in the file.
+   * - ``requested_seek_interval``
+     - integer
+     - Applies to events with an event ``type`` of 'onSlideSeek' and an
+       ``event_source`` of 'mobile' only. The number of seconds that the user
+       moved backward (expressed as a negative) or forward in the file by
+       clicking on the transcript.
+
+       **History**: Added nn Mar 2015.
+
+   * - ``requested_skip_interval``
+     - integer
+     - Applies to events with an event ``type`` of 'onSkipSeek' and an
+       ``event_source`` of 'mobile' only. The number of seconds that the user
+       moved backward in the file by using the ** back button.
+
+       **History**: Added nn Mar 2015.
+       
    * - ``type``
      - string
      - The navigational method used to change position within the video.
@@ -886,7 +913,9 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include edX mobile app events.
+**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android. Updated nn Mar 2015 to include events emitted by the edX
+mobile app for iOS.
 
 ``context`` **Member Fields**: Only events that the edX mobile app emits
 include these ``context`` member fields. For an example, see :ref:`Example
@@ -975,7 +1004,9 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include edX mobile app events.
+**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android. Updated nn Mar 2015 to include events emitted by the edX
+mobile app for iOS.
 
 ``context`` **Member Fields**: Only events that the edX mobile app emits
 include these ``context`` member fields. For an example, see :ref:`Example
@@ -1068,7 +1099,9 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include edX mobile app events.
+**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android. Updated nn Mar 2015 to include events emitted by the edX
+mobile app for iOS.
 
 ``context`` **Member Fields**: Only events that the edX mobile app emits
 include these ``context`` member fields. For an example, see :ref:`Example

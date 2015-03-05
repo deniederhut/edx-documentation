@@ -14,9 +14,10 @@ January-March 2015
 
    * - Date
      - Change
-   * - nn Feb 2015
-     - Added the ``edx.video.position.changed`` event to the :ref:`video` in
-       the Tracking Logs chapter.
+   * - nn Mar 2015
+     - Added information about an additional event,
+       ``edx.video.position.changed``, that is now emitted by the edX mobile
+       app to the :ref:`video` in the Tracking Logs chapter.
    * - 16 Jan 2015
      - Added the :ref:`Institution_Data` chapter with information about the
        CSV file of student email preference settings.
