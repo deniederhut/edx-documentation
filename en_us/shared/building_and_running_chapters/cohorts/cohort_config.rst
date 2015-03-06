@@ -82,17 +82,16 @@ assignment to cohorts, see :ref:`Hybrid Assignment`.
 Automated Cohorts
 =================
 
-.. note:: When your course starts, you must have at least one cohort in your
-   course that has automatic assignment. If you have not created at least one
-   automated assignment cohort in the course by the time that the first student
-   accesses your course content, edX creates a default cohort to which students
-   are automatically assigned.
-
 The first time a student first views any course content, including the course
 **Discussion** page or content-specific discussion topics, if she is not already
 assigned to a cohort, she is randomly assigned to one of the automated cohorts.
 If no automated cohorts exist, the system creates a :ref:`default cohort` and
 assigns the student to this default cohort.
+
+.. note:: The default cohort is created to ensure that every student is assigned
+   to a cohort. To avoid having to re-assign students from the default cohort to
+   other cohorts, make sure you create the automated cohorts in your course
+   before the course starts.
 
 
 .. _Implementing the Manual Assignment Strategy:
