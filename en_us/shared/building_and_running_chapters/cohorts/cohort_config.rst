@@ -501,7 +501,6 @@ changing the value for the ``auto_cohort_groups`` policy key has these results.
 Disable the Cohort Feature
 ==========================
 
-<<<<<<< HEAD
 You can disable the cohort feature for your course. Follow the instructions for
 :ref:`enabling the cohort feature<Enable Cohorts>`, but set ``"cohorted":
 false``. All discussion posts immediately become visible to all students.
@@ -514,7 +513,6 @@ To disable cohorts in your course, follow these steps.
    
 All course content and discussion posts that were previously divided by cohort
 immediately become visible to all students.
->>>>>>> 9bf213a... Initial draft
 
 If you do re-enable the cohort feature by setting ``"cohorted": true``, all
 previous student cohort assignments are reenabled, and all visibility settings
