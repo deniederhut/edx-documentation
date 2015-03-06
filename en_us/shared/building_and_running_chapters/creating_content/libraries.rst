@@ -400,6 +400,10 @@ You can :ref:`export<Export a Library>` and :ref:`import<Import a Library>` a co
 
 .. _Export a Library:
 
+================
+Export a Library
+================
+
 There are several reasons why you might want to export your library.
 
 * To save your work in progress
@@ -428,6 +432,10 @@ computer.
 
 
 .. _Import a Library:
+
+================
+Import a Library
+================
 
 You might want to import a library if you developed or updated library content
 outside of Studio, or if you want to overwrite a problematic or outdated version
