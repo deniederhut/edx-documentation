@@ -590,11 +590,8 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 10 Mar 2015 to include events emitted by the edX
-mobile app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
-
-.. Chris/Nimisha, is that correct? does iOS emit these events?
 
 ``context`` **Member Fields**: 
 
@@ -630,8 +627,6 @@ that the edX mobile app emits also include a ``name`` field with a value of
 **History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android. Updated 10 Mar 2015 to include events emitted by the edX
 mobile app for iOS.
-
-.. Chris/Nimisha, is that correct? does iOS emit load_video events?
 
 ``context`` **Member Fields**: 
 
@@ -972,11 +967,8 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 10 Mar 2015 to include events emitted by the edX
-mobile app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
-
-.. Chris/Nimisha, is that correct? does iOS emit these events?
 
 ``context`` **Member Fields**: 
 
