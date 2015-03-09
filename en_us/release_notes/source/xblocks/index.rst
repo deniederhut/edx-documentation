@@ -3,6 +3,13 @@ edX XBlocks
 ####################################
 
 ******************
+March 10, 2015
+******************
+
+A new XBlock service allows XBlocks to acces Django settings. (OSPR-419,
+OSPR-427)
+
+******************
 January 28, 2015
 ******************
 
