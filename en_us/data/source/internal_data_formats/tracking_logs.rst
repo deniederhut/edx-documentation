@@ -575,8 +575,8 @@ an interaction with the video player begins with a :ref:`play_video` event.
 **Component**: Video
 
 **History**: The edX mobile app for iOS began to emit a subset of the video
-events on 10 Mar 15. The edX mobile app for Android began to emit a subset of
-the video events on 23 Dec 14.
+events on 10 Mar 2015. The edX mobile app for Android began to emit a subset of
+the video events on 23 Dec 2014.
 
 ``hide_transcript``/``edx.video.transcript.hidden``
 ***************************************************
@@ -590,7 +590,8 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
+**History**: Updated 10 Mar 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
 
 ``context`` **Member Fields**: 
@@ -624,9 +625,9 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
-app for Android. Updated 10 Mar 2015 to include events emitted by the edX
-mobile app for iOS.
+**History**: Updated 10 Mar 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
+app for Android.
 
 ``context`` **Member Fields**: 
 
@@ -677,7 +678,8 @@ The ``pause_video``/``edx.video.paused`` events include the following
 this type as for the :ref:`play_video` events.
 
 * ``code``
-* ``currentTime``: The time the video was paused, in seconds.
+* ``currentTime``: The time in the video at which the video paused, in
+  seconds.
 * ``id``
 
 .. _play_video:
@@ -761,7 +763,7 @@ event with these fields, see :ref:`Example Mobile App Event`.
 
    * - ``currentTime``
      - float
-     - The time the video was played, in seconds. 
+     - The time in the video at which the video was played, in seconds. 
    * - ``id``
      - string
      - The optional name value supplied by the course creators, or the system-
@@ -894,7 +896,7 @@ events that the edX mobile app emits include the value
 
 **History**: Updated 10 Mar 2015 to include events emitted by the edX mobile
 app for Android or iOS. Prior to 25 Jun 2014, the ``old_time`` and
-``new_time`` were set to the same value.
+``new_time`` fields were set to the same value.
 
 ``context`` **Member Fields**: 
 
@@ -933,20 +935,20 @@ The following additional ``event`` member fields apply specifically to
        different point in the file.
    * - ``requested_seek_interval``
      - integer
-     - Applies to events with an ``event.type`` of 'onSlideSeek' and an
-       ``event_source`` of 'mobile' only. The number of seconds that the user
+     - Applies only to events with an ``event.type`` of 'onSlideSeek' and an
+       ``event_source`` of 'mobile'. The number of seconds that the user
        moved backward (expressed as a negative) or forward in the file by
        clicking on the transcript.
 
-       **History**: Added nn Mar 2015.
+       **History**: Added 10 Mar 2015.
 
    * - ``requested_skip_interval``
      - integer
-     - Applies to events with an ``event.type`` of 'onSkipSeek' and an
-       ``event_source`` of 'mobile' only. The number of seconds that the user
+     - Applies only to events with an ``event.type`` of 'onSkipSeek' and an
+       ``event_source`` of 'mobile'. The number of seconds that the user
        moved backward in the file by using the back 30 seconds button.
 
-       **History**: Added nn Mar 2015.
+       **History**: Added 10 Mar 2015.
        
    * - ``type``
      - string
@@ -967,7 +969,8 @@ that the edX mobile app emits also include a ``name`` field with a value of
 
 **Event Source**: Browser or Mobile
 
-**History**: Updated 23 Dec 2014 to include events emitted by the edX mobile
+**History**: Updated 10 Mar 2015 to include events emitted by the edX mobile
+app for iOS. Updated 23 Dec 2014 to include events emitted by the edX mobile
 app for Android.
 
 ``context`` **Member Fields**: 
@@ -1051,7 +1054,7 @@ The ``stop_video``/``edx.video.stopped`` events include the following
 this type as for the :ref:`play_video` events.
 
 * ``code``
-* ``currentTime``: The time the video was stopped, in seconds.
+* ``currentTime``: The time in the video at which play stopped, in seconds.
 * ``id``
 
 .. _pdf:
